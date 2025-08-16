@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sorting Visualizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Sorting Visualizer</h1>
+  <div class="controls">
+    <label>Array Size: <input type="range" id="size" min="10" max="100" value="30"></label>
+    <label>Speed: <input type="range" id="speed" min="10" max="500" value="100"></label>
+    <button onclick="generateArray()">Generate Array</button>
+    <br>
+    <button onclick="bubbleSort()">Bubble Sort</button>
+    <button onclick="insertionSort()">Insertion Sort</button>
+    <button onclick="selectionSort()">Selection Sort</button>
+    <button onclick="shellSort()">Shell Sort</button>
+    <button onclick="mergeSortStart()">Merge Sort</button>
+  </div>
+
+  <div class="bar-container" id="barContainer"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

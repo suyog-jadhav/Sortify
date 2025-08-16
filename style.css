@@ -1,0 +1,27 @@
+ body { 
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+    background: #f4f4f9; 
+}
+h1 { 
+    margin: 20px;
+}
+.controls {
+    margin: 15px; 
+}
+.bar-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-end; 
+    height: 400px; 
+    margin: 20px auto; 
+    width: 90%; 
+    border: 1px solid #ccc; 
+    background: white; 
+}
+.bar {
+    margin: 0 1px;
+    background: #3498db; 
+    width: 15px; 
+}
+button, input[type=range] { margin: 5px; padding: 8px; }
