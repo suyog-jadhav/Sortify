@@ -31,7 +31,13 @@ h1 {
 .bar[style*="background: red"] {
     background: #e74c3c !important; 
 }
-button, input[type=range] { 
+input[type=range] { 
     margin: 5px; 
     padding: 8px; 
+   
+}
+button{
+	margin: 5px; 
+    padding: 8px; 
+    
 }
