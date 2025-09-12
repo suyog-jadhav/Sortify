@@ -1,4 +1,4 @@
- body { 
+body { 
     font-family: Arial, sans-serif; 
     text-align: center; 
     background: #f4f4f9; 
@@ -23,5 +23,15 @@ h1 {
     margin: 0 1px;
     background: #3498db; 
     width: 15px; 
+    transition: background 0.2s, height 0.2s;
 }
-button, input[type=range] { margin: 5px; padding: 8px; }
+.bar[style*="background: green"] {
+    background: #27ae60 !important;
+}
+.bar[style*="background: red"] {
+    background: #e74c3c !important; 
+}
+button, input[type=range] { 
+    margin: 5px; 
+    padding: 8px; 
+}
